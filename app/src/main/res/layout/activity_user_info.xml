@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#E9D7FF"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Profile Picture"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER INFORMATION"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Username:Maduka"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: dm2002sew@gmail.com"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/edit_info_button"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#4A148C"
+        android:text="Edit Info."
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:backgroundTint="#4A148C"
+            android:text="Back"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D32F2F"
+            android:text="Sign-Out"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

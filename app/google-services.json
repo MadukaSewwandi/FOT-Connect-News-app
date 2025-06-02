@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "256246395105",
+    "project_id": "fot-connect",
+    "storage_bucket": "fot-connect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256246395105:android:b1f88044620d0df6b7c7a0",
+        "android_client_info": {
+          "package_name": "com.example.fotconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt-311DDwT3TmRv1RSd8CiGTK1w0-QMIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
