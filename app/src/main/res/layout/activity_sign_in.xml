@@ -22,6 +22,7 @@
         android:layout_marginBottom="24dp"
         android:text="Sign in"
         android:textSize="24sp"
+        android:textColor="#42175E"
         android:textStyle="bold" />
 
     <TextView
@@ -29,7 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="username"
-        android:textSize="14sp" />
+        android:textColor="#42175E"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/username"
@@ -45,7 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="password"
-        android:textSize="14sp" />
+        android:textColor="#42175E"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/password"
