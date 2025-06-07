@@ -25,6 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create Account"
+        android:textColor="#42175E"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="24dp" />
@@ -34,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="username"
-        android:textSize="14sp" />
+        android:textColor="#42175E"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/username"
@@ -50,7 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="password"
-        android:textSize="14sp" />
+        android:textColor="#42175E"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/password"
@@ -67,7 +70,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="confirm password"
-        android:textSize="14sp" />
+        android:textColor="#42175E"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/confirm_password"
@@ -84,7 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="email"
-        android:textSize="14sp" />
+        android:textColor="#42175E"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/email"
