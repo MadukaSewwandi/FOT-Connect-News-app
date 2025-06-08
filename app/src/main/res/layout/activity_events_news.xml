@@ -80,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="165dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/sport1"
+                    android:src="@drawable/events1"
                     android:contentDescription="News Image" />
 
                 <TextView
@@ -114,7 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="165dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/sport4"
+                    android:src="@drawable/events2"
                     android:contentDescription="News Image" />
 
                 <TextView
@@ -147,7 +147,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="165dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/sport2"
+                    android:src="@drawable/events3"
                     android:contentDescription="News Image" />
 
                 <TextView
