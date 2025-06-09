@@ -71,7 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, 2025.06.06"
+                    android:text="🎓 Graduation Ceremony Honors Student Excellence,  2025.06.06"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -87,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="Graduates received their degrees in a proud moment filled with speeches, smiles, and celebration of academic success and future aspirations."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -105,7 +105,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, 2025.06.11"
+                    android:text="✊ Academic Staff Strike Affects Lectures
+, 2025.06.11"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -121,7 +122,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="University academic staff launched a peaceful strike demanding fair wages and better resources, causing temporary disruption to scheduled lectures."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -138,7 +139,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, 2025.07.12"
+                    android:text="🎓 University Convocation 2025 Held Grandly, 2025.07.12"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -154,7 +155,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="The convocation event welcomed parents and scholars to honor outstanding students and faculty in a formal and inspiring setting."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
