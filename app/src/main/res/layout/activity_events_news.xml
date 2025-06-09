@@ -71,7 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, 2025.06.13"
+                    android:text="🎤 Bathi Gee Competition Spreads Vesak Spirit, 2025.06.13"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -87,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="Melodious voices filled the night air as students sang devotional songs, celebrating Vesak with peace, harmony, and artistic passion."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -105,7 +105,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, 2025.06.26"
+                    android:text="🍚 Vesak Dansala Serves Thousands with Love, 2025.06.26"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -121,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="Students organized a free rice dansala during Vesak, warmly serving meals to all visitors and promoting unity and kindness."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -138,7 +138,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, 2025.07.19"
+                    android:text="🪷 Awrudu Festival Celebrated in Style, 2025.07.19"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -154,7 +154,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="The Faculty hosted colorful games, music, and traditional treats to mark Sinhala and Tamil New Year with joy and unity."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>

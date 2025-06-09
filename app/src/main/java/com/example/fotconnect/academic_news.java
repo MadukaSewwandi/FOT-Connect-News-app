@@ -33,7 +33,7 @@ public class academic_news extends Activity {
 
         // You can add actions for Sports and Events if needed:
         navSports.setOnClickListener(v ->
-                startActivity(new Intent(academic_news.this, academic_news.class)));
+                startActivity(new Intent(academic_news.this, NewsActivity.class)));
 
         navEvents.setOnClickListener(v ->
                 startActivity(new Intent(academic_news.this, events_news.class)));

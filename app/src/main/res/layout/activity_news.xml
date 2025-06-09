@@ -71,7 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, Date published"
+                    android:text="🏏 Cricket Match Ends in Exciting Victory, 2025.06.11"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -87,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="The university cricket team beat their rivals with sharp fielding and power hitting, earning praise from coaches and fellow students."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -105,7 +105,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, Date published"
+                    android:text="⚽ Football Final Draws Massive Crowd, 2025.07.11"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -121,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="The football final ended in a dramatic penalty shootout, showcasing skill, teamwork, and an unforgettable moment for student athletes."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -138,7 +138,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News title, Date published"
+                    android:text="🏆 Faculty Finals Thrill Fans With Close Finish,  2025.05.04"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -154,7 +154,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="News Body: type here..."
+                    android:text="The interfaculty finals saw a nail-biting match with cheering crowds as the champions secured their win in the final minutes."
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </LinearLayout>
