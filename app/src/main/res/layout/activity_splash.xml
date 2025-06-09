@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="286dp"
-        android:layout_height="207dp"
+        android:layout_width="304dp"
+        android:layout_height="212dp"
         android:contentDescription="App Logo"
         android:elevation="40dp"
         android:padding="16dp"
