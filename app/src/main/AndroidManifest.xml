@@ -28,7 +28,7 @@
         </activity> <!-- All other screens -->
         <activity android:name=".SignInActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".NewsActivity" />
+        <activity android:name=".SportNewsActivity" />
         <activity android:name=".DeveloperInfoActivity" />
         <activity android:name=".UserInfoActivity" />
         <activity android:name=".SignOutDialogActivity" />
