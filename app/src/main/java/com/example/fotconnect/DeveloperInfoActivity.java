@@ -16,7 +16,7 @@ public class DeveloperInfoActivity extends Activity {
         exitButton = findViewById(R.id.exit_button);
 
         exitButton.setOnClickListener(v -> {
-            startActivity(new Intent(DeveloperInfoActivity.this, NewsActivity.class));
+            startActivity(new Intent(DeveloperInfoActivity.this, SportNewsActivity.class));
         });
     }
 }

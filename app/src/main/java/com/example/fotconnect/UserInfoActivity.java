@@ -22,7 +22,7 @@ public class UserInfoActivity extends Activity {
         });
 
         backButton.setOnClickListener(v -> {
-            startActivity(new Intent(UserInfoActivity.this, NewsActivity.class));
+            startActivity(new Intent(UserInfoActivity.this, SportNewsActivity.class));
         });
 
         signOutButton.setOnClickListener(v -> {
