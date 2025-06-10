@@ -33,10 +33,9 @@ public class EventsNewsActivity extends Activity {
 
         // You can add actions for Sports and Events if needed:
         navSports.setOnClickListener(v ->
-                startActivity(new Intent(EventsNewsActivity.this, NewsActivity.class)));
+                startActivity(new Intent(EventsNewsActivity.this, SportNewsActivity.class)));
 
-        navEvents.setOnClickListener(v ->
-                startActivity(new Intent(EventsNewsActivity.this, EventsNewsActivity.class)));
+
     }
 }
 

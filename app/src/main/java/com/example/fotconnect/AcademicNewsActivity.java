@@ -27,13 +27,11 @@ public class AcademicNewsActivity extends Activity {
             startActivity(new Intent(AcademicNewsActivity.this, DeveloperInfoActivity.class));
         });
 
-        // Navigate to Academics screen
-        navAcademics.setOnClickListener(v ->
-                startActivity(new Intent(AcademicNewsActivity.this, AcademicNewsActivity.class)));
+
 
         // You can add actions for Sports and Events if needed:
         navSports.setOnClickListener(v ->
-                startActivity(new Intent(AcademicNewsActivity.this, NewsActivity.class)));
+                startActivity(new Intent(AcademicNewsActivity.this, SportNewsActivity.class)));
 
         navEvents.setOnClickListener(v ->
                 startActivity(new Intent(AcademicNewsActivity.this, EventsNewsActivity.class)));
