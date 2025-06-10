@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-public class events_news extends Activity {
+public class EventsNewsActivity extends Activity {
     ImageView profileIcon, developerIcon;
     LinearLayout navAcademics, navSports, navEvents;
 
@@ -20,23 +20,23 @@ public class events_news extends Activity {
         developerIcon = findViewById(R.id.dev_icon);
 
         profileIcon.setOnClickListener(v -> {
-            startActivity(new Intent(events_news.this, UserInfoActivity.class));
+            startActivity(new Intent(EventsNewsActivity.this, UserInfoActivity.class));
         });
 
         developerIcon.setOnClickListener(v -> {
-            startActivity(new Intent(events_news.this, DeveloperInfoActivity.class));
+            startActivity(new Intent(EventsNewsActivity.this, DeveloperInfoActivity.class));
         });
 
         // Navigate to Academics screen
         navAcademics.setOnClickListener(v ->
-                startActivity(new Intent(events_news.this, academic_news.class)));
+                startActivity(new Intent(EventsNewsActivity.this, AcademicNewsActivity.class)));
 
         // You can add actions for Sports and Events if needed:
         navSports.setOnClickListener(v ->
-                startActivity(new Intent(events_news.this, NewsActivity.class)));
+                startActivity(new Intent(EventsNewsActivity.this, NewsActivity.class)));
 
         navEvents.setOnClickListener(v ->
-                startActivity(new Intent(events_news.this, events_news.class)));
+                startActivity(new Intent(EventsNewsActivity.this, EventsNewsActivity.class)));
     }
 }
 
