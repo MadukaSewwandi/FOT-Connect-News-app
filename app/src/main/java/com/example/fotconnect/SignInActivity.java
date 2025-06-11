@@ -29,7 +29,7 @@ public class SignInActivity extends Activity {
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser != null) {
-            startActivity(new Intent(SignInActivity.this, NewsActivity.class));
+            startActivity(new Intent(SignInActivity.this, SportNewsActivity.class));
             finish();
         }
     }
@@ -66,7 +66,7 @@ public class SignInActivity extends Activity {
                                     .addOnCompleteListener(task -> {
                                         if (task.isSuccessful()) {
                                             Toast.makeText(SignInActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                                            startActivity(new Intent(SignInActivity.this, NewsActivity.class));
+                                            startActivity(new Intent(SignInActivity.this, SportNewsActivity.class));
                                             finish();
                                         } else {
                                             Toast.makeText(SignInActivity.this, "Authentication Failed: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();

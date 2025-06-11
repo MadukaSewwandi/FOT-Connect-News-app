@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fotconnect">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,25 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Material3.Light.NoActionBar">
-
-        <!-- Splash screen is the launcher activity -->
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".events_news"
+            android:exported="false" />
+        <activity
+            android:name=".academic_news"
+            android:exported="false" /> <!-- Splash screen is the launcher activity -->
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- All other screens -->
+        </activity> <!-- All other screens -->
         <activity android:name=".SignInActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".NewsActivity" />
+        <activity android:name=".SportNewsActivity" />
         <activity android:name=".DeveloperInfoActivity" />
         <activity android:name=".UserInfoActivity" />
         <activity android:name=".SignOutDialogActivity" />
         <activity android:name=".EditUserActivity" />
+
 
     </application>
 
