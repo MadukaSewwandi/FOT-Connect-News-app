@@ -182,7 +182,7 @@
             android:gravity="center"
             android:clickable="true"
             android:focusable="true"
-            android:background="#E9D7FF"
+            android:background="?attr/selectableItemBackground"
             android:onClick="onNavClick">
 
             <ImageView
@@ -230,7 +230,7 @@
             android:gravity="center"
             android:clickable="true"
             android:focusable="true"
-            android:background="?attr/selectableItemBackground"
+            android:background="#E9D7FF"
             android:onClick="onNavClick">
 
             <ImageView

@@ -10,15 +10,21 @@ public class EventsNewsActivity extends Activity {
     ImageView profileIcon, developerIcon;
     LinearLayout navAcademics, navSports, navEvents;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events_news);
 
+        // Initialize top icons
         profileIcon = findViewById(R.id.profile_icon);
         developerIcon = findViewById(R.id.dev_icon);
 
+        // Initialize bottom navigation views
+        navAcademics = findViewById(R.id.nav_academics);
+        navSports = findViewById(R.id.nav_sports);
+        navEvents = findViewById(R.id.nav_events);
+
+        // Top icon click listeners
         profileIcon.setOnClickListener(v -> {
             startActivity(new Intent(EventsNewsActivity.this, UserInfoActivity.class));
         });
@@ -27,15 +33,20 @@ public class EventsNewsActivity extends Activity {
             startActivity(new Intent(EventsNewsActivity.this, DeveloperInfoActivity.class));
         });
 
-        // Navigate to Academics screen
-        navAcademics.setOnClickListener(v ->
-                startActivity(new Intent(EventsNewsActivity.this, AcademicNewsActivity.class)));
+        // Bottom nav click listeners
+        navAcademics.setOnClickListener(v -> {
+            startActivity(new Intent(EventsNewsActivity.this, AcademicNewsActivity.class));
+            finish(); // Optional: close current activity to avoid stacking
+        });
 
-        // You can add actions for Sports and Events if needed:
-        navSports.setOnClickListener(v ->
-                startActivity(new Intent(EventsNewsActivity.this, SportNewsActivity.class)));
+        navSports.setOnClickListener(v -> {
+            startActivity(new Intent(EventsNewsActivity.this, SportNewsActivity.class));
+            finish();
+        });
 
-
+        navEvents.setOnClickListener(v -> {
+            // Already on Events screen - you can ignore or refresh
+            // startActivity(new Intent(EventsNewsActivity.this, EventsNewsActivity.class));
+        });
     }
 }
-
