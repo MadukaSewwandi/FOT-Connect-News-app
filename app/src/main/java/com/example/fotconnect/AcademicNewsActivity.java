@@ -10,7 +10,6 @@ public class AcademicNewsActivity extends Activity {
     ImageView profileIcon, developerIcon;
     LinearLayout navAcademics, navSports, navEvents;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +17,10 @@ public class AcademicNewsActivity extends Activity {
 
         profileIcon = findViewById(R.id.profile_icon);
         developerIcon = findViewById(R.id.dev_icon);
+
+        navAcademics = findViewById(R.id.nav_academics);
+        navSports = findViewById(R.id.nav_sports);
+        navEvents = findViewById(R.id.nav_events);
 
         profileIcon.setOnClickListener(v -> {
             startActivity(new Intent(AcademicNewsActivity.this, UserInfoActivity.class));
@@ -27,14 +30,19 @@ public class AcademicNewsActivity extends Activity {
             startActivity(new Intent(AcademicNewsActivity.this, DeveloperInfoActivity.class));
         });
 
+        navAcademics.setOnClickListener(v -> {
+            // Already on Academic screen, you can ignore or refresh
+            // startActivity(new Intent(AcademicNewsActivity.this, AcademicNewsActivity.class));
+        });
 
+        navSports.setOnClickListener(v -> {
+            startActivity(new Intent(AcademicNewsActivity.this, SportNewsActivity.class));
+            finish();
+        });
 
-        // You can add actions for Sports and Events if needed:
-        navSports.setOnClickListener(v ->
-                startActivity(new Intent(AcademicNewsActivity.this, SportNewsActivity.class)));
-
-        navEvents.setOnClickListener(v ->
-                startActivity(new Intent(AcademicNewsActivity.this, EventsNewsActivity.class)));
+        navEvents.setOnClickListener(v -> {
+            startActivity(new Intent(AcademicNewsActivity.this, EventsNewsActivity.class));
+            finish();
+        });
     }
 }
-

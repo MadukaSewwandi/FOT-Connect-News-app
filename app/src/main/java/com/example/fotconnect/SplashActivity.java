@@ -21,6 +21,7 @@ public class SplashActivity extends Activity {
                 // User is already signed in
                 startActivity(new Intent(SplashActivity.this, SportNewsActivity.class));
             } else {
+
                 //User not signed in
                 startActivity(new Intent(SplashActivity.this, SignInActivity.class));
             }

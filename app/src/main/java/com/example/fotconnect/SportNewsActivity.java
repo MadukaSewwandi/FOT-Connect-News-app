@@ -1,6 +1,7 @@
 package com.example.fotconnect;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -27,10 +28,11 @@ public class SportNewsActivity extends Activity {
         developerIcon.setOnClickListener(v ->
                 startActivity(new Intent(SportNewsActivity.this, DeveloperInfoActivity.class)));
 
-        // Navigate to Academics screen
         navAcademics.setOnClickListener(v ->
                 startActivity(new Intent(SportNewsActivity.this, AcademicNewsActivity.class)));
 
+        navSports.setOnClickListener(v ->
+                startActivity(new Intent(SportNewsActivity.this, SportNewsActivity.class)));
 
         navEvents.setOnClickListener(v ->
                 startActivity(new Intent(SportNewsActivity.this, EventsNewsActivity.class)));

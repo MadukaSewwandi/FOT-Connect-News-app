@@ -10,9 +10,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -25,14 +22,14 @@ public class SignUpActivity extends Activity {
     TextView signInText;
 
     FirebaseAuth mAuth;
-    DatabaseReference databaseRef;
+    DatabaseReference databaseRef;  // single reference to root
 
     @Override
     public void onStart() {
         super.onStart();
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
+        if (currentUser != null) {
             startActivity(new Intent(SignUpActivity.this, SignInActivity.class));
             finish();
         }
@@ -44,7 +41,7 @@ public class SignUpActivity extends Activity {
         setContentView(R.layout.activity_sign_up);
 
         mAuth = FirebaseAuth.getInstance();
-        databaseRef = FirebaseDatabase.getInstance().getReference("users");
+        databaseRef = FirebaseDatabase.getInstance().getReference();
 
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
@@ -69,13 +66,14 @@ public class SignUpActivity extends Activity {
                             if (task.isSuccessful()) {
                                 FirebaseUser firebaseUser = mAuth.getCurrentUser();
                                 if (firebaseUser != null) {
-                                    String uid = firebaseUser.getUid();
-                                    // Store username -> email map
-                                    databaseRef.child(user).setValue(mail);
+                                    // Save into both "users" and "usernames"
+                                    databaseRef.child("users").child(user).setValue(mail);
+                                    databaseRef.child("usernames").child(user).setValue(mail);
+
+                                    Toast.makeText(SignUpActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
+                                    startActivity(new Intent(SignUpActivity.this, SignInActivity.class));
+                                    finish();
                                 }
-                                Toast.makeText(SignUpActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(SignUpActivity.this, SignInActivity.class));
-                                finish();
                             } else {
                                 Toast.makeText(SignUpActivity.this, "Registration Failed: " + task.getException().getMessage(), Toast.LENGTH_LONG).show();
                             }
