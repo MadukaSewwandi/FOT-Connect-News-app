@@ -28,10 +28,11 @@ public class SportNewsActivity extends Activity {
         developerIcon.setOnClickListener(v ->
                 startActivity(new Intent(SportNewsActivity.this, DeveloperInfoActivity.class)));
 
-        // Navigate to Academics screen
         navAcademics.setOnClickListener(v ->
                 startActivity(new Intent(SportNewsActivity.this, AcademicNewsActivity.class)));
 
+        navSports.setOnClickListener(v ->
+                startActivity(new Intent(SportNewsActivity.this, SportNewsActivity.class)));
 
         navEvents.setOnClickListener(v ->
                 startActivity(new Intent(SportNewsActivity.this, EventsNewsActivity.class)));
