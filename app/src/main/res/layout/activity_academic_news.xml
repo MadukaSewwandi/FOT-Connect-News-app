@@ -187,8 +187,8 @@
             android:onClick="onNavClick">
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
                 android:src="@drawable/sports"
                 android:contentDescription="Sports" />
             <TextView
@@ -211,9 +211,9 @@
             android:onClick="onNavClick">
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/degree"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/degree1"
                 android:contentDescription="Academics" />
             <TextView
                 android:layout_width="wrap_content"
