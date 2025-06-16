@@ -25,6 +25,7 @@
         android:layout_marginBottom="16dp" />
 
     <TextView
+        android:id="@+id/usernameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -32,6 +33,7 @@
         android:textSize="14sp" />
 
     <TextView
+        android:id="@+id/emailTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email: dm2002sew@gmail.com"

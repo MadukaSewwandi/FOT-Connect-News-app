@@ -30,8 +30,8 @@ public class EditUserActivity extends Activity {
         setContentView(R.layout.activity_edit_user);
 
         // UI elements
-        editUsername = findViewById(R.id.edit_username);
-        editEmail = findViewById(R.id.edit_email);
+        editUsername = findViewById(R.id.editUsername);
+        editEmail = findViewById(R.id.editEmail);
         okButton = findViewById(R.id.ok_button);
         cancelButton = findViewById(R.id.cancel_button);
 
